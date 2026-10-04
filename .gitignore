@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+*.iml
+.idea/
+local.properties
+*.DS_Store
+
+# Kotlin
+**/*.class
+
+# Release keystore (KHÔNG commit key vào repo)
+*.jks
+*.keystore
+
+# Gradle wrapper jar PHẢI được commit
+!gradle/wrapper/gradle-wrapper.jar
