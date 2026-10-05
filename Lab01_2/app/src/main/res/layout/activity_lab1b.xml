@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    tools:context=".XmlActivity"
+    tools:context=".lab1b.Lab1bActivity"
     android:orientation="vertical"
     android:layout_height="match_parent">
 
