@@ -51,7 +51,7 @@ AndroidLabs/
 
 - Android Studio Hedgehog (2023.1.1) trở lên
 - JDK 17+
-- Kotlin 1.9+
+- Kotlin 1.9.24 | AGP 8.5.2 | Gradle 8.7
 - **Gradle JDK: 17 hoặc 21** (Settings → Build Tools → Gradle → Gradle JDK). JDK 25 không chạy được với Gradle 8.7
 
 ## 🚀 Cách chạy
