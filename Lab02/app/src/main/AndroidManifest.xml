@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab02">
+
+        <!-- Lab 1: ListView với mảng định sẵn -->
+        <activity
+            android:name=".lab1.Lab1Activity"
+            android:exported="false"
+            android:label="Lab 1 – ListView mảng định sẵn" />
+
+        <!-- Lab 2: ArrayList + ListView (thêm/xóa) -->
+        <activity
+            android:name=".lab2.Lab2Activity"
+            android:exported="false"
+            android:label="Lab 2 – ArrayList + ListView" />
+
+        <!-- Lab 3: ListView với Object (Employee) -->
+        <activity
+            android:name=".lab3.Lab3Activity"
+            android:exported="false"
+            android:label="Lab 3 – ListView + Object" />
+
+        <!-- Lab 4: CustomAdapter cho ListView -->
+        <activity
+            android:name=".lab4.Lab4Activity"
+            android:exported="false"
+            android:label="Lab 4 – CustomAdapter ListView" />
+
+        <!-- Lab 7: RecyclerView (làm lại Lab 4) -->
+        <activity
+            android:name=".lab7.Lab7Activity"
+            android:exported="false"
+            android:label="Lab 7 – RecyclerView" />
+
+        <!-- Main menu -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

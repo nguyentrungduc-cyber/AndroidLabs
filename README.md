@@ -10,6 +10,7 @@ Ngôn ngữ: **Kotlin** | Min SDK: **24** | Target SDK: **34**
 | Lab | Chủ đề | Trạng thái |
 |-----|--------|------------|
 | [Lab 01.2](./Lab01_2) | Các layout cơ bản (LinearLayout, RelativeLayout, ConstraintLayout) | ✅ Hoàn thành |
+| [Lab 02](./Lab02) | ListView, RecyclerView, CustomAdapter, GridView, Spinner | ✅ Hoàn thành |
 
 ---
 
